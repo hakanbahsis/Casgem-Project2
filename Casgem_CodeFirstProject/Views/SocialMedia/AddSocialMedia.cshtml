@@ -1,0 +1,23 @@
+﻿@model Casgem_CodeFirstProject.DAL.Entities.SocialMedia
+@{
+    ViewBag.Title = "AddSocialMedia";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+
+
+<h2>Sosyal Medya Hesabı Ekleme</h2>
+<form method="post">
+    <label>Sosyal Medya Adı</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    <label>Sosyal Medya Linki</label>
+    @Html.TextBoxFor(x => x.Url, new { @class = "form-control" })
+    <br />
+    <label>Rehber Adı</label>
+    @Html.DropDownListFor(x => x.GuideId, (List<SelectListItem>)ViewBag.v, "Rehber Seçiniz", new
+            { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Kaydet</button>
+</form>
+

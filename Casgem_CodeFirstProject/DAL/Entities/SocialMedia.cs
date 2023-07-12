@@ -12,6 +12,6 @@ namespace Casgem_CodeFirstProject.DAL.Entities
         public string Url { get; set; }
 
         public int GuideId { get; set; }
-        public Guide Guide { get; set; }
+        public virtual Guide Guide { get; set; }
     }
 }

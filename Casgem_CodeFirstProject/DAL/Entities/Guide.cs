@@ -13,6 +13,6 @@ namespace Casgem_CodeFirstProject.DAL.Entities
         public string ImageUrl { get; set; }
 
 
-        public List<SocialMedia> SocialMedia { get; set; }
+        public  List<SocialMedia> SocialMedia { get; set; }
     }
 }
