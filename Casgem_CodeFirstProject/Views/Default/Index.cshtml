@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+  @Html.Action("PartialHead")
+</head>
+<body id="home">
+    @Html.Action("PartialHeader")
+    @Html.Action("PartialScripts")
+    @Html.Action("PartialSlider")
+    @Html.Action("PartialBooking")
+    @Html.Action("PartialSpecification")
+    @Html.Action("PartialCovers")
+    @Html.Action("PartialTeams")
+    @Html.Action("PartialClient")
+    @Html.Action("PartialFooter")
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-chevron-up"></span>
+    </button>
+   
+    <!-- /move top -->
+</body>
+
+</html>
