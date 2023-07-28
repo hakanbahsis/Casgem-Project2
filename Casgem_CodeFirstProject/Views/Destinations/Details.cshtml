@@ -1,0 +1,74 @@
+﻿@model Casgem_CodeFirstProject.DAL.Entities.Destination
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<h2>Seyahat Detayları</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DestinationName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DestinationName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DayNight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DayNight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Capacity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Capacity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.DestinationId }) |
+    @Html.ActionLink("Geri Dön", "Index")
+</p>

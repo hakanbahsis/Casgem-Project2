@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @Html.Action("PartialHead","Default")
+</head>
+<body>
+    @Html.Action("PartialHeader", "Default")
+    @Html.Action("PartialScripts", "Default")
+    @Html.Action("PartialBanner")
+    @Html.Action("PartialContact")
+
+
+
+    @Html.Action("PartialFooter","Default")
+
+</body>
+</html>

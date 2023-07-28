@@ -21,10 +21,15 @@ Author URL: http://w3layouts.com
     <!-- //Meta tag Keywords -->
     <link href="//fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!--/Style-CSS -->
-    <link rel="stylesheet" href="~/Templates/Login/css/style.css" type="text/css" media="all" />
-    <!--//Style-CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="~/Templates/Login/css/style.css" type="text/css" media="all" />
+
+    <!--//Style-CSS -->
     <link rel="stylesheet" href="~/Templates/Login/css/font-awesome.min.css" type="text/css" media="all">
+
+
+
 
 </head>
 
@@ -42,6 +47,12 @@ Author URL: http://w3layouts.com
                         <form  method="post">
                             <input type="text" class="text" name="Username" placeholder="Username" required="" autofocus>
                             <input type="password" class="password" name="Password" placeholder="Password" required="" autofocus>
+                            
+                                <input class="checkbox" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="label" for="flexCheckDefault">
+                                    Default checkbox
+                                </label>
+                           
                             <button class="btn" type="submit">Giriş Yap</button>
                         </form>
 

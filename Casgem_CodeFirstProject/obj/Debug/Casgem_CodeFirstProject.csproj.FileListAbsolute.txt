@@ -76,10 +76,9 @@ C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\bin
 C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\bin\Newtonsoft.Json.xml
 C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\bin\Antlr3.Runtime.pdb
 C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.Migrations.mig_init.resources
+C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.csproj.GenerateResource.cache
 C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.dll
 C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.pdb
-C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.Migrations.mig_addRelationGuideSocialMedia.resources
-C:\Users\Lenovo\source\repos\Casgem_CodeFirstProject\Casgem_CodeFirstProject\obj\Debug\Casgem_CodeFirstProject.csproj.GenerateResource.cache

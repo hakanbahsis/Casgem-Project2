@@ -3119,10 +3119,9 @@
     display: grid;
     align-items: center; }
   .w3l-main-slider .banner-top1 {
-    background: url(../images/2.jpg) no-repeat center;
     background-size: cover; }
   .w3l-main-slider .banner-top2 {
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(/Templates/trip/assets/images/b1.jpg) no-repeat center;
     background-size: cover; }
   .w3l-main-slider .banner-view:before {
     content: "";
@@ -3684,7 +3683,7 @@
   max-width: 500px; }
 
 .w3l-specification-6 .images-right {
-  background: url(../images/b5.jpg) no-repeat center;
+ 
   background-size: cover;
   min-height: 800px;
   position: relative;
@@ -3703,7 +3702,6 @@
   z-index: -1; }
 
 .w3l-specification-6 .ser-bg2 {
-  background: url(../images/b7.jpg) no-repeat center;
   background-size: cover;
   min-height: 400px;
   position: relative;
@@ -3782,8 +3780,8 @@
     min-height: 200px; } }
 
 .w3l-clients .call-w3 {
-  background: url(../images/3.jpg) no-repeat center;
-  background-size: cover;
+  /*background: url(../images/3.jpg) no-repeat center;
+  background-size: cover;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12272,7 +12270,8 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+ Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background-color: var(--bg-color); }
 
 * {
